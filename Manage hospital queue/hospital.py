@@ -3,7 +3,7 @@ class Node:
         self.data = data
         self.next = None
 class HospitalAR:
-    def __init__(self): # ใชเช็คคำผิด
+    def __init__(self): # ครอบครุมคำผิด
         self.AddQ = ['1','1.','addqueue','addQueue','Addqueue','AddQueue','add queue','add Queue','Add queue','Add Queue','ADDQueue','ADD QUEUE','ADDqueue','ADD queue']
         self.ShowQ = ['2','2.','showqueue','show queue','ShowQueue','Show Queue','SHOWQUEUE','SHOW QUEUE']
         self.QLength = ['3','3.','QUEUE LENGTH','queue length','queuelength','QUEUELENGTH','Queue length']
